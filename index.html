@@ -9,8 +9,8 @@
     <meta property="og:title" content="مراکز درمانی کارآفرین ارومیه" />
     <meta property="og:description" content="فهرست و راهنمای جستجوی مراکز درمانی طرف قرارداد بیمه کارآفرین در شهر ارومیه و ثبت آنلاین مدارک خسارت" />
     <meta property="og:type" content="website" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <link rel="manifest" href="/manifest.webmanifest" />
+    <link rel="icon" type="image/svg+xml" href="./icon.svg" />
+    <link rel="manifest" href="./manifest.webmanifest" />
     <meta name="mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-title" content="مراکز کارآفرین" />
@@ -25,7 +25,7 @@
     <script>
       if ('serviceWorker' in navigator && location.protocol !== 'file:') {
         window.addEventListener('load', () => {
-          navigator.serviceWorker.register('/sw.js').catch(() => {});
+          navigator.serviceWorker.register('./sw.js').catch(() => {});
         });
       }
     </script>
