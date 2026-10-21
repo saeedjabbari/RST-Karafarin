@@ -1,0 +1,6 @@
+{
+  "name": "مراکز درمانی کارآفرین ارومیه",
+  "description": "فهرست و راهنمای جستجوی مراکز درمانی طرف قرارداد بیمه کارآفرین در شهر ارومیه و ثبت آنلاین مدارک خسارت",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
